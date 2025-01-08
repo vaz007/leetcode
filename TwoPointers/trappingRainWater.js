@@ -42,7 +42,7 @@ const trappedRainWater = (height) => {
    let right = height.length -1;
    let leftMax = height[left];
    let rightMax = height[right];
-    result = 0;
+   let result = 0;
     while(left < right){
         if(leftMax < rightMax){
             left +=1;

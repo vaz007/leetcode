@@ -36,6 +36,7 @@ const longestSubstring = (str) => {
 
 }
 
+
 console.log(longestSubstring('zxyzxyz'));
 console.log(longestSubstring('xxx'));
 console.log(longestSubstring('pwwkew'));
